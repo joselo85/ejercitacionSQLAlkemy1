@@ -47,6 +47,17 @@
    `DELETE FROM curso WHERE nombre='Algoritmos'`
  
 *** 
+## Tema 2:
+Consigna 3:
+
+Cargue una captura de pantalla  de qué resultado se obtiene después de ejecutar:
+
+`SELECT profesor.Apellido , curso.Nombre, curso.turno FROM profesor LEFT JOIN curso ON profesor.id = curso.PROFESOR_id;`
+
+![image](https://user-images.githubusercontent.com/74208929/148616143-7fe6514d-25a7-4ffc-883f-dcbe23ef18b0.png)
+
+
+***
 ## Tema 3: Queries
     
 1. Nombre, apellido y fecha de nacimiento de todos los empleados, ordenado por fecha de nacimiento ascendente.
